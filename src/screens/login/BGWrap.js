@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const BGWrap = styled.div`
   position: relative;
 
-  .login-bg {
+  .auth-bg {
     background-image: url(img/auth-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ const BGWrap = styled.div`
     content: "";
     width: 100%;
     height: 100%;
-    background: hsla(200, 8%, 5%, 0.6);
+    background: hsla(200, 10%, 0%, .75);
 
     display: flex;
     flex-direction: column;

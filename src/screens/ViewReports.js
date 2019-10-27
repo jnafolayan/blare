@@ -71,7 +71,7 @@ export default function CreateReport() {
       maxDistance: maxDist
     }
 
-    axios.post(buildUrl('/reports/filter?num=100'), payload)
+    axios.post(buildUrl('/reports/filter?num=25'), payload)
       .then(({ data }) => {
         const coords = data.data.map(d => ({
           coords: d.location.coordinates.reverse(),
